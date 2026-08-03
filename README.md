@@ -17,6 +17,7 @@ As skills deste repositório seguem como base as documentações, guias e boas p
 
 - `Documentation/`: skills voltadas para documentação, escrita e geração de conteúdo.
 - `Engineering/`: skills focadas em prompt engineering, organização de contexto e melhoria de resposta.
+- `Prompts/`: prompts prontos para uso, otimizados por plataforma (ChatGPT, Claude e Gemini).
 
 ## Objetivo
 
