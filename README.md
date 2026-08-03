@@ -21,4 +21,3 @@ As skills deste repositório seguem como base as documentações, guias e boas p
 ## Objetivo
 
 Centralizar um conjunto de skills reutilizáveis para trabalhar melhor com IA, acelerar tarefas repetitivas e manter um padrão mais consistente de qualidade nas interações com diferentes modelos.
-EOF && sed -n '1,120p' output/README.md
