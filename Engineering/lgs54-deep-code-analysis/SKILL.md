@@ -1,6 +1,6 @@
 ---
 name: lgs54-deep-code-analysis
-description: Perform deep, systematic code analysis to uncover subtle syntax errors, logic bugs, scope issues, race conditions, memory leaks, and architectural flaws. Uses multi-pass analysis: static structure, control/data flow, semantic correctness, concurrency, performance, and security. Use when reviewing code for production readiness, debugging elusive issues, or validating critical paths.
+description: "Perform deep, systematic code analysis to uncover subtle syntax errors, logic bugs, scope issues, race conditions, memory leaks, and architectural flaws. Uses multi-pass analysis: static structure, control/data flow, semantic correctness, concurrency, performance, and security. Use when reviewing code for production readiness, debugging elusive issues, or validating critical paths."
 metadata:
   author: lucas-gs54
   version: "1.0.0"
