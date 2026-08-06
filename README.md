@@ -1,75 +1,24 @@
 # Skills
 
-Repositório de skills reutilizáveis para aumentar produtividade e extrair o máximo de modelos de IA em diferentes tarefas.
+<p align="center">
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
+</p>
 
-As skills seguem as documentações e boas práticas oficiais de **Anthropic**, **Google** e **OpenAI**, adaptadas para uso prático.
+Repositório onde guardo as skills que uso no dia a dia para aumentar minha produtividade e extrair o máximo da IA em diferentes tarefas.
+
+A ideia aqui é manter prompts, estruturas e boas práticas organizadas para facilitar o uso em projetos reais, documentação, engenharia de prompt e fluxos de trabalho com modelos.
+
+As skills deste repositório seguem como base as documentações, guias e boas práticas oficiais de provedores como **Anthropic**, **Google** e **OpenAI**, adaptadas para um uso mais prático e direto.
 
 ## Estrutura
 
-```
-Skills/
-├── Documentation/     # Skills de documentação, escrita e geração de conteúdo
-├── Engineering/       # Skills de engenharia, prompt engineering, análise de código
-└── Prompts/           # Prompts prontos otimizados por plataforma
-```
+- `Documentation/`: skills voltadas para documentação, escrita e geração de conteúdo.
+- `Engineering/`: skills focadas em prompt engineering, organização de contexto e melhoria de resposta.
+- `Prompts/`: prompts prontos para uso, otimizados por plataforma (ChatGPT, Claude e Gemini).
 
-## Documentation/
+## Objetivo
 
-| Skill | Quando Usar |
-|-------|-------------|
-| [`lgs54-doc-optimizer`](Documentation/lgs54-doc-optimizer/) | Melhorar clareza, concisão, correção e legibilidade de docs Markdown existentes (READMEs, guias, CHANGELOGs, docs de API) |
-| [`lgs54-markdown-generation`](Documentation/lgs54-markdown-generation/) | Criar, estruturar ou otimizar documentos Markdown do zero: README, CHANGELOG, CONTRIBUTING, docs técnicas, guias |
-
-## Engineering/
-
-| Skill | Quando Usar |
-|-------|-------------|
-| [`lgs54-prompt-engineering`](Engineering/lgs54-prompt-engineering/) | Criar, analisar, otimizar, validar ou adaptar prompts para **ChatGPT, Claude ou Gemini** |
-| [`lgs54-deep-code-analysis`](Engineering/lgs54-deep-code-analysis/) | Análise profunda de código: bugs sutis, race conditions, memory leaks, falhas arquiteturais, performance, segurança |
-| [`lgs54-frontend-craft`](Engineering/lgs54-frontend-craft/) | Buildar/revisar frontends com qualidade profissional: HTML semântico, acessibilidade, design tokens, motion purposeful, CSS performático |
-| [`lgs54-project-modularization`](Engineering/lgs54-project-modularization/) | Reorganizar codebases bagunçados em estrutura modular limpa (survey → plan → implement), preservando comportamento |
-| [`lgs54-skill-creator`](Engineering/lgs54-skill-creator/) | Criar, refinar, validar e padronizar novas skills no padrão **lgs54** |
-
-## Prompts/
-
-Prompts prontos para uso, otimizados por plataforma:
-
-- **ChatGPT/**: `concise-teaching`, `concise-thinking`
-- **Claude/**: `concise-teaching`, `concise-thinking`
-- **Gemini/**: `concise-teaching`, `concise-thinking`
-
-## Como Escolher a Skill Certa
-
-```
-Precisa otimizar um texto/documento existente?
-  → lgs54-doc-optimizer
-
-Precisa criar um documento Markdown do zero (README, CHANGELOG, etc.)?
-  → lgs54-markdown-generation
-
-Precisa trabalhar com prompts (criar, melhorar, adaptar entre plataformas)?
-  → lgs54-prompt-engineering
-
-Precisa analisar código profundamente (bugs, arquitetura, performance, segurança)?
-  → lgs54-deep-code-analysis
-
-Precisa buildar/revisar frontend com padrão profissional?
-  → lgs54-frontend-craft
-
-Precisa reorganizar/modularizar um projeto bagunçado?
-  → lgs54-project-modularization
-
-Precisa criar uma nova skill no padrão lgs54?
-  → lgs54-skill-creator
-```
-
-## Padrão lgs54
-
-Todas as skills seguem:
-
-- **Frontmatter YAML** obrigatório (`name`, `description`, `metadata`)
-- **Arquitetura modular**: `SKILL.md` (workflow principal) + `references/*.md` (detalhes carregados sob demanda)
-- **Triggers explícitos** na description ("Use when...")
-- **Regras operacionais obrigatórias** + **Quality Checklist** final
-- **Linguagem flexível**: comunica no idioma do usuário
-- **Zero assunção**: pergunta quando ambíguo, nunca assume
+Centralizar um conjunto de skills reutilizáveis para trabalhar melhor com IA, acelerar tarefas repetitivas e manter um padrão mais consistente de qualidade nas interações com diferentes modelos.
