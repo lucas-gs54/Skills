@@ -55,7 +55,7 @@ The skill MUST always follow the defined workflow:
 3. **Define Frontmatter**: Draft standard YAML header (`name`, `description`, `metadata`).
 4. **Draft Main Operational Sections**: Write `Purpose`, `Language`, `Supported Types/Aspects`, `Mandatory Operating Rule`, `Core Principles`, and `Execution Workflow`.
 5. **Extract References**: Identify modular details or platform/domain specifics and split them into `references/*.md`.
-6. **Validate Architecture**: Verify frontmatter validity, directory paths, trigger descriptions, and checklist compliance against [`references/skill-standards.md`](file:///home/lucas/Documentos/Projetos/Skills/Engineering/lgs54-skill-creator/references/skill-standards.md).
+6. **Validate Architecture**: Verify frontmatter validity, directory paths, trigger descriptions, and checklist compliance against `references/skill-standards.md`.
 7. **Deliver Skill Files**: Present or write the created `SKILL.md` and reference files.
 
 ## Core Principles of LGS54 Skills
@@ -110,7 +110,7 @@ Draft `SKILL.md` using the canonical section layout:
 7. `## Workflow Steps`
 8. `## Quality Checklist`
 
-Read [`references/template-skill.md`](file:///home/lucas/Documentos/Projetos/Skills/Engineering/lgs54-skill-creator/references/template-skill.md) for exact section templates.
+Read `references/template-skill.md` for exact section templates.
 
 ### Step 4: Structuring References
 For each sub-domain, create a dedicated file in `references/`:
@@ -118,7 +118,7 @@ For each sub-domain, create a dedicated file in `references/`:
 - Use headers, bullet points, and code blocks.
 - Provide practical examples and edge-case handling.
 
-Read [`references/skill-standards.md`](file:///home/lucas/Documentos/Projetos/Skills/Engineering/lgs54-skill-creator/references/skill-standards.md) for quality criteria.
+Read `references/skill-standards.md` for quality criteria.
 
 ## Quality Checklist
 
